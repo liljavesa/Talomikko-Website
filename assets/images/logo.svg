@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="118.39191mm"
+   height="98.865494mm"
+   viewBox="0 0 118.39191 98.865494"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1"
+     inkscape:cx="445.5"
+     inkscape:cy="584.5"
+     inkscape:window-width="2560"
+     inkscape:window-height="1440"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer4">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="118.39191"
+       height="98.865494"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Katto"
+     transform="translate(-45.804039,-135.90812)">
+    <path
+       id="rect2"
+       style="display:inline;fill:#000000;stroke-width:0.116852"
+       d="m 104.99968,135.90812 -31.100685,15.57363 v 9.12023 l 31.099315,-15.32896 v 0.3444 h 2.3e-4 v -0.3444 l 31.10046,15.32942 v 1.5127 l 0.002,8.2e-4 v -10.63427 z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Talo"
+     style="display:inline"
+     transform="translate(-45.804039,-135.90812)">
+    <path
+       id="rect1-3"
+       style="display:inline;stroke-width:0.181955"
+       d="m 105.00602,141.13618 -2.3e-4,2.3e-4 v 9.03169 l -0.006,-0.003 -23.838008,11.568 v 18.92172 h 0.05523 v 18.46231 h 18.063366 v -18.4621 h 5.719642 5.73196 v 18.46277 h 18.06314 v -18.46277 h 0.0431 V 161.733 l -23.83217,-11.56502 z" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.2777px;font-family:'Bebas Neue';-inkscape-font-specification:'Bebas Neue';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.264583"
+     x="-0.42330149"
+     y="98.512703"
+     id="text7"><tspan
+       sodipodi:role="line"
+       id="tspan7"
+       style="stroke-width:0.264583"
+       x="-0.42330149"
+       y="98.512703">TALOMIKKO</tspan></text>
+</svg>

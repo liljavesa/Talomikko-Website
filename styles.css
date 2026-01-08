@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: Open Sans;
+    src: url(assets/fonts/OpenSans-Regular.ttf);
+}
+
+h1, h2 {
+    font-family: Inter;
+}
+
+p, table, th, td {
+    font-family: Open Sans;
+}
+
+table, th, td {
+  border:1px solid black;
+}
