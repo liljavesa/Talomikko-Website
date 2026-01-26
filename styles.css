@@ -13,6 +13,10 @@
     src: url(assets/fonts/BebasNeue-Regular.ttf)    
 }
 
+* {
+    font-family: Open Sans;
+}
+
 :root {
     --primary-bg-color: #c1f0c8
 }
