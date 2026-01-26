@@ -8,53 +8,80 @@
     src: url(assets/fonts/OpenSans-Regular.ttf);
 }
 
+@font-face {
+    font-family: Bebas Neue;
+    src: url(assets/fonts/BebasNeue-Regular.ttf)    
+}
+
 :root {
     --primary-bg-color: #c1f0c8
 }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
+header {
     background-color: var(--primary-bg-color);
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.page {
+    margin-left: 8px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0 100px; 
+    border-bottom: 2px solid black;
 }
 
 .logo img {
-    height: 50px;
+    height: 75px;
     width: auto;
 }
 
-.navbar ul {
+.navbar-center {
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style-type: none;
-    padding: 0px;
-    overflow: hidden;
+    flex: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .navbar a {
+    display: block;
     color: black;
     text-decoration: none;
-    padding: 15px;
-    float: left;
+    padding: 15px 30px;
 }
 
 .navbar a:hover {
     background-color: #a7d1ae;
 }
 
-.pricing, .main-footer{
-    padding-top: 100px;
+/*
+.navbar a:active {
+    border-bottom: 3px solid black;
 }
+*/
 
 h1, h2 {
     font-family: Inter;
 }
 
-a, p, table, th, td {
+p, table, th, td {
     font-family: Open Sans;
+}
+
+a {
+    font-family: Bebas Neue;
+    font-size: 40px;
 }
 
 th, td {
@@ -64,4 +91,9 @@ th, td {
 table, th, td {
   border:2px solid black;
   border-collapse: collapse;
+}
+
+@media (max-width: 456px)
+{
+
 }
