@@ -98,7 +98,7 @@ p, table, th, td {
     font-family: Open Sans;
 }
 
-a {
+.navbar > a {
     font-family: Bebas Neue;
     font-size: 40px;
 }
@@ -112,7 +112,7 @@ table, th, td {
   border-collapse: collapse;
 }
 
-@media (max-width: 456px) {
+@media (max-width: 480px) {
     .navbar-center {
         display: none;
         flex-direction: column;
