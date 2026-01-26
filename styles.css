@@ -8,6 +8,14 @@
     src: url(assets/fonts/OpenSans-Regular.ttf);
 }
 
+:root {
+    --primary-bg-color: #c1f0c8
+}
+
+.navbar {
+    background-color: var(--primary-bg-color);
+}
+
 h1, h2 {
     font-family: Inter;
 }
@@ -16,6 +24,11 @@ p, table, th, td {
     font-family: Open Sans;
 }
 
+th, td {
+    padding-right: 5px;
+}
+
 table, th, td {
-  border:1px solid black;
+  border:2px solid black;
+  border-collapse: collapse;
 }
