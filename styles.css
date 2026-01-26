@@ -13,12 +13,22 @@
 }
 
 .navbar {
-/*    position: fixed;
-    top: 0;*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     background-color: var(--primary-bg-color);
 }
 
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
 .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     padding: 0px;
     overflow: hidden;
@@ -28,13 +38,15 @@
     color: black;
     text-decoration: none;
     padding: 15px;
-    display: block;
-    text-align: center;
     float: left;
 }
 
 .navbar a:hover {
     background-color: #a7d1ae;
+}
+
+.pricing, .main-footer{
+    padding-top: 100px;
 }
 
 h1, h2 {
