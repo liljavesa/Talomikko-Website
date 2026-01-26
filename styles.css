@@ -74,6 +74,8 @@ body {
 
 .hamburger {
     display: none;
+    margin-left: auto;
+    padding: 0 20px;
     font-size: 40px;
     background: none;
     border: none;
@@ -98,7 +100,7 @@ p, table, th, td {
     font-family: Open Sans;
 }
 
-.navbar > a {
+.navbar-center > a {
     font-family: Bebas Neue;
     font-size: 40px;
 }
@@ -126,7 +128,15 @@ table, th, td {
         display: flex;
     }
 
+    .navbar {
+        padding: 0 20px;
+    }
+
     .hamburger {
         display: block;
+    }
+
+    .page {
+        width: 85%;
     }
 }
