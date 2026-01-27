@@ -82,6 +82,14 @@ body {
     cursor: pointer;
 }
 
+.text-body {
+    padding-top: 10px;
+}
+
+footer {
+    padding-top: 10px;
+}
+
 /*
 .navbar a:active {
     border-bottom: 3px solid black;
