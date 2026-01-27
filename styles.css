@@ -106,12 +106,16 @@ p, table, th, td {
 }
 
 th, td {
-    padding-right: 5px;
+    padding: 5px 10px;
 }
 
 table, th, td {
   border:2px solid black;
   border-collapse: collapse;
+}
+
+th {
+    background-color: var(--primary-bg-color);
 }
 
 @media (max-width: 480px) {
@@ -141,5 +145,9 @@ table, th, td {
 
     .page {
         width: 85%;
+    }
+
+    th, td {
+        padding: 0 5px;
     }
 }
