@@ -18,7 +18,8 @@
 }
 
 :root {
-    --primary-bg-color: #c1f0c8
+    --primary-bg-color: #c1f0c8;
+    --text-color: #000000;
 }
 
 header {
@@ -43,7 +44,7 @@ body {
     position: sticky;
     top: 0;
     padding: 0 100px; 
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--text-color);
 }
 
 .logo img {
@@ -59,17 +60,31 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+    column-gap: 50px;
 }
 
 .navbar a {
     display: block;
-    color: black;
+    color: var(--text-color);
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 15px 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.25s ease-in-out;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
 }
 
 .navbar a:hover {
     background-color: #a7d1ae;
+}
+
+.navbar-center a:hover {
+    background-color: var(--primary-bg-color);
+    border-bottom: 2px solid var(--text-color);
+}
+
+.navbar a.active {
+    border-bottom: 2px solid var(--text-color);
 }
 
 .hamburger {
@@ -118,7 +133,7 @@ th, td {
 }
 
 table, th, td {
-  border:2px solid black;
+  border:2px solid var(--text-color);
   border-collapse: collapse;
 }
 
@@ -140,11 +155,20 @@ th {
         top: 100%;
         width: 100%;
         background-color: var(--primary-bg-color);
-        border-bottom: 2px solid black;
+        border-bottom: 2px solid var(--text-color);
+    }
+
+    .navbar a {
+        padding: 15px 30px;
     }
 
     .navbar-center.show {
         display: flex;
+    }
+
+    /* No bottom border on mobile */
+    .navbar a.active {
+        border-bottom: none;
     }
 
     .hamburger {
