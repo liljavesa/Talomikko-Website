@@ -18,16 +18,26 @@
 }
 
 :root {
-    --primary-bg-color: #c1f0c8;
+    --primary-color-bg: #ffffff;
+    --primary-highlight-color: #c1f0c8;
     --text-color: #000000;
+    --heading-text-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color-bg: #1C1F22;
+        --text-color: #ffffff;
+    }
 }
 
 header {
-    background-color: var(--primary-bg-color);
+    background-color: var(--primary-highlight-color);
     width: 100%;
 }
 
 body {
+    background-color: var(--primary-color-bg);
     margin: 0;
 }
 
@@ -44,7 +54,7 @@ body {
     position: sticky;
     top: 0;
     padding: 0 100px; 
-    border-bottom: 2px solid var(--text-color);
+    border-bottom: 2px solid black;
 }
 
 .logo img {
@@ -65,7 +75,7 @@ body {
 
 .navbar a {
     display: block;
-    color: var(--text-color);
+    color: var(--heading-text-color);
     text-decoration: none;
     padding: 15px 10px;
     border-bottom: 2px solid transparent;
@@ -79,12 +89,12 @@ body {
 }
 
 .navbar-center a:hover {
-    background-color: var(--primary-bg-color);
-    border-bottom: 2px solid var(--text-color);
+    background-color: var(--primary-highlight-color);
+    border-bottom: 2px solid var(--heading-text-color);
 }
 
 .navbar a.active {
-    border-bottom: 2px solid var(--text-color);
+    border-bottom: 2px solid var(--heading-text-color);
 }
 
 .hamburger {
@@ -112,6 +122,7 @@ footer {
 */
 
 h1, h2 {
+    color: var(--text-color);
     font-family: Inter;
 }
 
@@ -119,7 +130,13 @@ h1 {
     text-align: center;
 }
 
-p, table, th, td {
+p, table, td {
+    color: var(--text-color);
+    font-family: Open Sans;
+}
+
+th {
+    color: var(--heading-text-color);
     font-family: Open Sans;
 }
 
@@ -138,7 +155,7 @@ table, th, td {
 }
 
 th {
-    background-color: var(--primary-bg-color);
+    background-color: var(--primary-highlight-color);
 }
 
 @media (max-width: 480px) {
@@ -154,7 +171,7 @@ th {
         position: absolute;
         top: 100%;
         width: 100%;
-        background-color: var(--primary-bg-color);
+        background-color: var(--primary-highlight-color);
         border-bottom: 2px solid var(--text-color);
     }
 
