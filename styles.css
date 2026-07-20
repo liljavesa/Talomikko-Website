@@ -161,6 +161,7 @@ th {
     .navbar {
         position: relative;
         padding: 0 20px;
+        border-bottom: none;
     }
 
     .navbar-center {
