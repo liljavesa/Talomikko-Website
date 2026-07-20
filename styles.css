@@ -69,7 +69,7 @@ body {
     flex: 1;
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     column-gap: 50px;
 }
 
@@ -164,26 +164,42 @@ th {
     }
 
     .navbar-center {
-        display: none;
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
         top: 100%;
         width: 100%;
         background-color: var(--primary-highlight-color);
-        border-bottom: 2px solid var(--text-color);
+        border-bottom: solid black;
+        left: 0;
+        transform: none;
+
+        /* The navbar is hidden by default */
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+
+        transition:
+            max-height 0.3s ease-in-out,
+            transform 0.3s ease-in-out;
     }
 
+    .navbar-center a {
+        width: 100%;
+    }
+    
     .navbar a {
         padding: 15px 30px;
     }
 
     .navbar-center.show {
-        display: flex;
+        max-height: 300px;
+        opacity: 1;
     }
 
     /* No bottom border on mobile */
-    .navbar a.active {
+    .navbar a.active, .navbar-center a:hover {
         border-bottom: none;
     }
 
