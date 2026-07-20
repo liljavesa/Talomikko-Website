@@ -90,11 +90,11 @@ body {
 
 .navbar-center a:hover {
     background-color: var(--primary-highlight-color);
-    border-bottom: 2px solid var(--heading-text-color);
+    border-bottom: 3px solid var(--heading-text-color);
 }
 
 .navbar a.active {
-    border-bottom: 2px solid var(--heading-text-color);
+    border-bottom: 3px solid var(--heading-text-color);
 }
 
 .hamburger {
@@ -114,12 +114,6 @@ body {
 footer {
     padding-top: 10px;
 }
-
-/*
-.navbar a:active {
-    border-bottom: 3px solid black;
-}
-*/
 
 h1, h2 {
     color: var(--text-color);
